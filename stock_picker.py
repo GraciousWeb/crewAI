@@ -8,7 +8,8 @@ import json
 load_dotenv()
 
 llm = LLM(
-    model="gpt-3.5-turbo",                   
+    model="openrouter/deepseek/deepseek-r1",         
+    base_url="https://openrouter.ai/api/v1",           
     api_key=os.getenv("API_TOKEN")             
 )
 

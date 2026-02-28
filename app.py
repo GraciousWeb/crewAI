@@ -4,7 +4,7 @@ import os
 from stock_picker import stock_picker_crew
 
 
-load_dotenv()
+load_dotenv(override=True)
 
 os.makedirs("output", exist_ok=True)
 
